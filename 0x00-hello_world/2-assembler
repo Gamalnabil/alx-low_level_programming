@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE=$CFILE gcc -o "${CFILE%.s}.c 
+CFILE=$CFILE gcc -S "$CFILE" -o "${CFIILE%.c}.s" 
