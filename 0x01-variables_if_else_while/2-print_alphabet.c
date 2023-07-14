@@ -8,11 +8,11 @@
 */
 int manin(void)
 {
-	int i;
+	int i = 97;
 
-	for (i = 0; i < 26; i++)
+	for (i <= 122; i++)
 	{
-		putchar ('a' + i);
+		putchar (i);
 	}
 	putchar ('\n');
 	
