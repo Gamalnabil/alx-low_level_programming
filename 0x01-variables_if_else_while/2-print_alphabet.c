@@ -10,12 +10,12 @@ int manin(void)
 {
 	int n = 97;
 
-	while (n <= 122)
+	for (n <= 122 ; n++)
 	{
-		putchar (n);
+		putchar (n + '0');
 		n++;
 	}
 	putchar ('\n');
-	
+
 	return (0);
 }
