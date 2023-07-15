@@ -20,8 +20,9 @@ int main(void)
 		}
 		else
 		{
-			putchar((n + '0') + '\n');
+			putchar((n + '0'));
 		}
 	}
+	putchar('\n')
 	return (0);
 }
