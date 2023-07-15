@@ -16,7 +16,7 @@ int main(void)
 		{
 			putchar(b + '0');
 		}
-		else 
+		else
 		{
 			putchar(b - 10 + 'a');
 		}
@@ -24,4 +24,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-	
