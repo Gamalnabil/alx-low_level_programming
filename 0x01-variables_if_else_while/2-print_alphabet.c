@@ -12,7 +12,7 @@ int manin(void)
 
 	for (n = 97; n <= 122 ; n++)
 	{
-		putchar (n + '0');
+		putchar (n+'0');
 	}
 	putchar ('\n');
 
