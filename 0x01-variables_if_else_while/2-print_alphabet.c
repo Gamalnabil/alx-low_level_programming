@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (Success)
 */
-int manin(void)
+int main(void)
 {
 	char n;
 
