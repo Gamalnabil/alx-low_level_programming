@@ -8,11 +8,12 @@
 */
 int manin(void)
 {
-	int n;
+	int n = 97;
 
-	for (n = 97; n <= 122 ; n++)
+	while (n <= 122)
 	{
 		putchar (n);
+		n++;
 	}
 	putchar ('\n');
 
