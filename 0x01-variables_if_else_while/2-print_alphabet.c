@@ -8,7 +8,7 @@
 */
 int manin(void)
 {
-	int n = 97;
+	int n;
 
 	for (n = 97; n <= 122 ; n++)
 	{
