@@ -10,7 +10,7 @@ int main(void)
 {
 	char n;
 
-	do (n == 'a'; n <= 'z'; n++ )
+	do (n = 'a'; n <= 'z'; n++ )
 	{
 		if (n == 'e' && n == 'q')
 		{
