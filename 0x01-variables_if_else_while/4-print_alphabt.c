@@ -8,13 +8,13 @@
 */
 int main(void)
 {
-	int n = 97;
+	char n = 'a';
 
-	while (n <= 122)
+	while (n <= 'z')
 	{
-		if (n == 101 && n == 133)
+		if (n == 'q' && n == 'e')
 		{
-			n++
+			n++;
 				continue;
 		}
 		putchar(n);
