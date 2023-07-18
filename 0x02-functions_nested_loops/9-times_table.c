@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * time_table - making a table and have alot of numbs
+ * times_table - making a table and have alot of numbs
  *
  * Return: Always 0 (Success)
 */
