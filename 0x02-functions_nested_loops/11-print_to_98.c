@@ -6,7 +6,7 @@
 */
 void print_to_98(int n)
 {
-	while ('98' >= n)
+	while (98 >= n)
 	{
 		printf("%c", n);
 		n++;
