@@ -2,8 +2,8 @@
 
 /**
  * _islower - Entry point
- * c is the intger that provide the alphabet
- * Return: Always 0 (Success)
+ * c: checks input of functions
+ * Return: 1 if the input lowercase and 0 if the input uppercase
 */
 int _islower(int c)
 {
