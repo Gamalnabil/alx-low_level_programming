@@ -7,6 +7,14 @@
 */
 int print_last_digit(int n)
 {
-	int answer = _abs(n);
-	return (answer % 10);
+	int z;
+
+	if (n < 0)
+	{
+		z = _abs("n % 10");
+	}
+	else
+	{
+		z = n % 10;
+	}
 }
