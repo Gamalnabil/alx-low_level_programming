@@ -1,10 +1,7 @@
 #include <stdio.h>
+#include <unistd.h>
 
-int _putchar(char p[], int n)
+int _putchar(char c)
 {
-	for (int i = 0; i < n; i++)
-	{
-		putchar(p[i], '0');
-	}
-	putchar('\n);
+	return write(1, &c, 1);
 }

@@ -2,7 +2,7 @@
 #define MAIN_H
 
 #include <stdio.h>
-int _putchar(char p[], int n);
+int _putchar(char c);
 
 
 #endif
