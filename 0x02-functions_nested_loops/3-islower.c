@@ -7,13 +7,9 @@
 */
 int _islower(int c)
 {
-	if (true)
-	{
-		lowercase(c);
-		return (0);
-	}
-	else 
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
+	return (0);
 }	
