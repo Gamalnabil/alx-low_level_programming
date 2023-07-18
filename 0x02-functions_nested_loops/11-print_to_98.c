@@ -6,11 +6,11 @@
 */
 void print_to_98(int n)
 {
-	while (98 >= n)
+	while ('98' >= n)
 	{
 		_putchar(n);
 		n++;
-			if (n < 98)
+			if (n < '98')
 			{
 				_putchar(',');
 				_putchar(' ');
