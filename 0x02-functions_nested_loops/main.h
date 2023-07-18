@@ -1,6 +1,6 @@
-#ifndef MAIN0_H
-#define MAIN0_H
+#ifndef MAIN_H
+#define MAIN_H
 
-char putchar(char p[], int i)
+char hello(char p[], int i)
 
 #endif

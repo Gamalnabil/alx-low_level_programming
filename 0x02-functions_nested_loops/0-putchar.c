@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main0.h"
+#include "main.h"
 
 /**
  * main - Entry point
@@ -8,6 +8,6 @@
 */
 int main(void)
 {
-	putchar(putchar);
+	hello();
 	return (0);
 }
