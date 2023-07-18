@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (Success)
 */
-int add(int n, int x);
+int add(int n, int x)
 {
 	int sum = x + n;
 
