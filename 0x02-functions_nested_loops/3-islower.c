@@ -2,7 +2,7 @@
 
 /**
  * _islower - Entry point
- *
+ * c is the intger that provide the alphabet
  * Return: Always 0 (Success)
 */
 int _islower(int c)
