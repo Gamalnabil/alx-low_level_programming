@@ -7,12 +7,13 @@
  * Return: always 0 (Success)
 */
 int _abs(int n)
-{
-	int n
-	scanf(%d, n);
-	
+{	
 	if (n < 0)
 	{
 		absolute_value = -n
+	}
+	else
+	{
+		absolute_value = n
 	}
 }
