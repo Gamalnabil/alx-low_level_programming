@@ -22,8 +22,8 @@ int main(void)
 		{
 			total_sum += sum;
 		}
-		flib1 = flib2;
-		flib2 = sum;
+		fib1 = fib2;
+		fib2 = sum;
 	}
 	printf("%.0f\n", total_sum);
 
