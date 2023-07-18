@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * time_table - making a table and have alot of numbs nad this table describe times
+ * time_table - making a table and have alot of numbs
  *
  * Return: Always 0 (Success)
 */
@@ -16,7 +16,9 @@ void times_table(void)
 		{
 			_putchar(',');
 			_putchar(' ');
+
 			prod = num * mult;
+
 			if (prod <= 9)
 			{
 				_putchar(' ');
