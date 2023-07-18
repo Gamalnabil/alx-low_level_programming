@@ -6,12 +6,13 @@
  * 
  * Return: always 0 (Success)
 */
-int _abs(int)
+int _abs(int n)
 {
-	int n;
-
+	int n
+	scanf(%d, n);
+	
 	if (n < 0)
 	{
-		fabs(n);
+		absolute_value = -n
 	}
 }
