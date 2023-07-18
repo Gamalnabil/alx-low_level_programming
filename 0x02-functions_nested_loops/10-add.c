@@ -2,10 +2,11 @@
 
 /**
  * add - this function adds two integer and returns the result
- * @x and @n: these are the number wuill got add
- * Return: Always give the sum of n and x (Success)
+ * @a: this is th main number
+ * @b: this is the num will gona added on a
+ * Return: Always give the sum of a and b (Success)
 */
-int add(int n, int x)
+int add(int a, int b)
 {
-	return (n + x);
+	return (a + b);
 }
