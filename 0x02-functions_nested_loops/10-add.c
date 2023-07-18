@@ -2,8 +2,8 @@
 
 /**
  * add - this function adds two integer and returns the result
- *
- * Return: Always 0 (Success)
+ * @x and @n: these are the number wuill got add
+ * Return: Always give the sum of n and x (Success)
 */
 int add(int n, int x)
 {
