@@ -7,8 +7,8 @@
 */
 int main(void)
 {
-	char p[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\n'};
+	char p[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 
-	_putchar(p, 9);
+	_putchar(p, 8);
 	return (0);
 }
