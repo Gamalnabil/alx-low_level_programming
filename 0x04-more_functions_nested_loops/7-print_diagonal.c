@@ -1,14 +1,12 @@
 #include "main.h"
 
 /**
- * print_diagonal - this function print line with diagonals
- * @n: is the number of diagonals
- * Return: always new line
+ * print_diagonal - print a diagonal line
+ * @n: numbers of diagonals
 */
 void print_diagonal(int n)
 {
-	int z;
-	int j;
+	int p, s;
 
 	if (n <= 0)
 	{
@@ -16,15 +14,14 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		for (z = 0; z <= n; z++)
+		for (p = 1; p <= n; p++)
 		{
-			for (j = 0; j <= z; z++)
+			for (s = 1; s <= p; s++)
 			{
 				_putchar(' ');
 			}
-			_putchar('\\');
+			_putchar(92);
 			_putchar('\n');
 		}
-	}
 	}
 }
