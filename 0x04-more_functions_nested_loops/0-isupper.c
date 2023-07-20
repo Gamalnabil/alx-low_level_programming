@@ -7,18 +7,12 @@
 */
 int _isupper(int c)
 {
-	if (c <= 'a' && c >= 'z')
+	if (c <= 90 && c >= 65)
 	{
-		_putchar('c');
-		_putchar(':');
-		_putchar(' ');
-		_putchar('0');
+		return (1);
 	}
-	else if (c <= 'A' && c >= 'Z')
+	else
 	{
-		_putchar('c');
-		_putchar(':');
-		_putchar(' ');
-		_putchar('1');
+		return (0);
 	}
 }
