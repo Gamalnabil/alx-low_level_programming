@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - print a diagonal line
- * @n: numbers of diagonals
+ * print_diagonal - print line from diagonals
+ * @n: value of the line
 */
 void print_diagonal(int n)
 {
@@ -20,7 +20,7 @@ void print_diagonal(int n)
 			{
 				_putchar(' ');
 			}
-			_putchar('\\');
+			_putchar(92);
 			_putchar('\n');
 		}
 	}
