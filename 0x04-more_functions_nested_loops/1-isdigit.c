@@ -7,16 +7,12 @@
 */
 int _isdigit(int c)
 {
-	int z;
-	for (z = 0; z <= 9; z++)
+	if (c >= 48 && c <= 57)
 	{
-		if (c = z)
-		{
-			return (1)
-		}
-		else
-		{
-			return (0)
-		}
+		return (1);
+	}
+	else
+	{
+		return (0);
 	}
 }
