@@ -20,6 +20,7 @@ void print_squar(int size)
 		{
 			_putchar('#');
 		}
+		_putchar('\n');
 	}
 	_putchar('\n');
 }
