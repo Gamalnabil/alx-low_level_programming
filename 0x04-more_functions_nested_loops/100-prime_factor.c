@@ -1,5 +1,24 @@
 #include <stdio.h>
-#include <math.h>
+
+
+/**
+ * _sqrt - double variable
+ * @x: mr x
+*/
+double _sqrt(double x)
+{
+	float s, t;
+
+	s = x / 2;
+	t = 0;
+
+	while (s != t)
+	{
+		t = s;
+		s = (x / t + t) / 2;
+	}
+	return (s);
+}
 
 /**
  * largest_prime_factor - get the largest factor
