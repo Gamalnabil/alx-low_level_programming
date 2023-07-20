@@ -13,4 +13,5 @@ void print_line(int n)
 	{
 		_putchar(z + '0');
 	}
+	_putchar('\n');
 }
