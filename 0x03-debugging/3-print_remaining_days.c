@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print _remaining_days - Entry point
+ * print _remaining_days - print days of the year and the remaining days
  * @month: month
  * @day: day
  * @year: year
