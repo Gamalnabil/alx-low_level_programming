@@ -7,4 +7,10 @@
 */
 void print_line(int n)
 {
-	
+	int z;
+
+	for (z = 0; z <= n; z++)
+	{
+		_putchar(z + '0');
+	}
+}
