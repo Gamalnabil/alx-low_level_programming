@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_squar - print squar from #
+ * print_square - print squar from #
  * @size: number of #
  * Return: Always newline
 */
-void print_squar(int size)
+void print_square(int size)
 {
 	int i;
 	int j;
