@@ -12,7 +12,7 @@ void largest_prime_factor(long int n)
 	{
 		n = n / 2;
 	}
-	for (p = 3; p <= s; p += 2)
+	for (p = 3; p <= _sqrt(n); p += 2)
 	{
 		while (n % p == 0)
 		{
