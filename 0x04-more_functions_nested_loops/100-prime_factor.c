@@ -4,6 +4,7 @@
 /**
  * _sqrt - double variable
  * @x: mr x
+ * Return: maybe my sqr
 */
 double _sqrt(double x)
 {
