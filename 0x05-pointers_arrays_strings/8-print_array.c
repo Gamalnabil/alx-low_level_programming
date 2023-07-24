@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_array - that function prints elements of an array 
+ * print_array - that function prints elements of an array
  * @a: the value of a
- * @the value of elements
+ * @n: the value of elements
 */
 void print_array(int *a, int n)
 {
