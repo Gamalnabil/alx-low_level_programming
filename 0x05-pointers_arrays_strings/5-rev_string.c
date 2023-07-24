@@ -6,7 +6,7 @@
 */
 void rev_string(char *s)
 {
-	int len = strlen(s);
+	int len = _strlen(s);
 	int start = 0;
 	int end = len - 1;
 
