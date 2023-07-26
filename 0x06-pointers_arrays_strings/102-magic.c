@@ -11,7 +11,7 @@ int main(void)
 	int a[5];
 	int *p;
 
-	a[s] = 1024;
+	a[2] = 1024;
 	p = &n;
 /*
  * write your line on code here ...
