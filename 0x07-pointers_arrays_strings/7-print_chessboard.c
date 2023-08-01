@@ -4,7 +4,7 @@
  * print_chessboard - function that prints chessboard
  * @a: input value
 */
-void print_cheassboard(char (*a)[8])
+void print_chessboard(char (*a)[8])
 {
 	int t, b;
 
