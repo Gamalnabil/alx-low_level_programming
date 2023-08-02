@@ -15,7 +15,7 @@ int _sqrt_recursion(int n)
  * square - this function make something too
  * @val: input value
  * @n: input value
- * Return 0
+ * Return: 0
 */
 int square(int n, int val)
 {
