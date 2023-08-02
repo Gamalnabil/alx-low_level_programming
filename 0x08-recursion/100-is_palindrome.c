@@ -16,7 +16,7 @@ int last_index(char *s)
 	return (n);
 }
 /**
- * is_palindrome - make something 
+ * is_palindrome - make something
  * @s: input value
  * Return: 0
 */
