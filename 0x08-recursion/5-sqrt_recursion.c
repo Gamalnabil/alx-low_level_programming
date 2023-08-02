@@ -10,6 +10,11 @@ int _sqrt_recursion(int n)
 {
 	return (square(n, 1));
 }
+/**
+ * square - make something
+ * @val: input value
+ * Return 0
+*/
 int square(int n, int val)
 {
 	if (val * val == n)
@@ -24,4 +29,4 @@ int square(int n, int val)
 	{
 		return (-1);
 	}
-}	
+}
